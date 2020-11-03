@@ -2,6 +2,7 @@
 ---
 
 @import "";
+.markdown-body table {display: table; }
 @media print, (overflow-block: paged) or (overflow-block: optional-paged)
 {
   /* Move top-level headings to a new page on the right-hand side: */
