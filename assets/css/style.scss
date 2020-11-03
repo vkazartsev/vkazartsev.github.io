@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
-@import "minima/initialize";
+@import "/minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "/minima/initialize";
 /*.markdown-body table {display: table; } */
 @media print, (overflow-block: paged)
 {
