@@ -2,7 +2,7 @@
 ---
 
 @import "minima";
-@include "css/night.css";
+@import "css/night.css";
 .markdown-body table {display: table; }
 @media print, (overflow-block: paged)
 {
