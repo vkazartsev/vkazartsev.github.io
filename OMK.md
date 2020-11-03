@@ -1,3 +1,8 @@
+<style>
+  .markdown-body table {display: table; }
+</style>
+
+
 # ОМК — Директор по трансформации
 
 # Профиль кандидата
