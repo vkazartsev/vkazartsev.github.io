@@ -3,3 +3,6 @@ markdown: CommonMarkGhPages
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table"]
+
+name: Vladislav Kazartsev
+title: null
