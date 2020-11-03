@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "night.css";
-/*.markdown-body table {display: table; } */
+@import "";
+.markdown-body table {display: table; }
 @media print, (overflow-block: paged)
 {
   /* Move top-level headings to a new page on the right-hand side: */
