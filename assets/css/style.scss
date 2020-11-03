@@ -1,9 +1,7 @@
 ---
 ---
 
-@import
-  "jekyll/minima/_sass/minima/skins/{{ site.minima.skin | default: 'classic.scss' }}",
-  "jekyll/minima/_sass/minima/initialize.scss";
+@import "";
 .markdown-body table {display: table; }
 @media print, (overflow-block: paged)
 {
