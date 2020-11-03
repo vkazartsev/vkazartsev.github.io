@@ -1,5 +1,5 @@
 <style>
-  .markdown-body table {display: table; }
+.markdown-body table {display: table; }
 </style>
 
 
