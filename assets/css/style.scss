@@ -2,8 +2,8 @@
 ---
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+  "jekyll/minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "jekyll/minima/initialize";
 .markdown-body table {display: table; }
 @media print, (overflow-block: paged)
 {
