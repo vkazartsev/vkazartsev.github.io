@@ -39,4 +39,5 @@
     page-break-before: avoid;
     break-before: avoid;      /* CSS 3+ */
   }
+  table, th, tr {break-inside:avoid;}
 }
