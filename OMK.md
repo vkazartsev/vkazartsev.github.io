@@ -1,7 +1,4 @@
-<style>
-.markdown-body table {display: table; }
-</style>
-
+<style>.markdown-body table{display: table;}</style>
 
 # ОМК — Директор по трансформации
 
