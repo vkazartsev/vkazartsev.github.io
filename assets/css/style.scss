@@ -29,10 +29,12 @@
   h1, h2, h3, h4, h5, h6
   {
     page-break-after: avoid;
+    break-after: avoid;      /* CSS 3+ */
   }
   /* Consecutive headings with deepening level should not be split across pages: */
   h1+h2, h2+h3, h3+h4, h4+h5, h5+h6
   {
     page-break-before: avoid;
+    break-before: avoid;      /* CSS 3+ */
   }
 }
