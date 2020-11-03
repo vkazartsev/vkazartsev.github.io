@@ -16,6 +16,42 @@
 | Нацеленность на результат<br> Высокий уровень самоорганизации | - Опыт проектной работы со стороны консалтинга…<br>    *2000 – 2007: KPMG, McKinsey and Company*<br>- …и со стороны бизнеса / государства<br>    *2008 – 2020: РУСАЛ, нефтегаз в Восточной Европе, РОСАТОМ, институты развития Дальнего Востока* |
 | Высокие аналитические способности                             | - Опыт управленческого консультирования<br>    *McKinsey and Company*<br>- Многолетний опыт работы с инструментами обработки данных<br>    *Power BI, R, облачные вычисления (от Google, Yandex и т. д.)*                                        |
 
+<style>
+  @media print, (overflow-block: paged) or (overflow-block: optional-paged)
+  {
+    /* Move top-level headings to a new page on the right-hand side: */
+    h1
+    {
+      page-break-before: right; /* CSS 2 */
+      break-before: recto;      /* CSS 3+, 
+        also works for languages written and paginated right-to-left */
+    }
+    /* Override the previous ruleset for the very first heading: */
+    h1:first-of-type,
+    section > h1:first-child
+    {
+      page-break-before: avoid; /* CSS 2 */
+      break-before: avoid;      /* CSS 3+ */
+    }
+    /* Force second-level headings to begin in a new column or
+       possiblyon a new page if it was in the last of multiple columns otherwise: */
+    h2
+    {
+      break-before: column;
+    }
+    /* Headings should not be the last paragraph on a page: */
+    h1, h2, h3, h4, h5, h6
+    {
+      page-break-after: avoid;
+    }
+    /* Consecutive headings with deepening level should not be split across pages: */
+    h1+h2, h2+h3, h3+h4, h4+h5, h5+h6
+    {
+      page-break-before: avoid;
+    }
+  }
+</style>
+
 ##  Подтверждённый опыт
 | **Ожидание**                                                                                                                     | **Факт**                                                                                                                                                                                                                                                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
