@@ -48,8 +48,6 @@
 
   a[href^=http]:after, a:not(:local-link):after { content:" <" attr(href) "> "; }
 
-  $a:after > img, article a[href^="#"]:after { content: ""; }
-
   .entry iframe, ins {
     display: none;
     width: 0 !important;
