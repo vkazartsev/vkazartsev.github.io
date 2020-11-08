@@ -6,9 +6,8 @@
 
   a, blockquote, details, pre { break-inside: avoid; }
   
-   table {
-    break-before: avoid; 
-    break-inside: avoid;
+  table {
+    break-before: avoid !important;
   }
 
   h1, h2, h3, h4, h5, h6, img, summary, thead {
@@ -18,7 +17,7 @@
   
   summary h1, summary h2, summary h3, summary h4, summary h5, summary h6 {display: inline}
 
-  ul, ol, dl, tbody, tfoot { break-before:avoid; }
+  ul, ol, dl, tbody, tfoot { break-before:avoid !important; }
 
   .entry iframe, ins {
     display: none;
