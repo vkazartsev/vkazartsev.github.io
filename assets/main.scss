@@ -10,6 +10,8 @@
     break-after:avoid; 
     break-inside:avoid;
   }
+  
+  summary h1, summary h2, summary h3, summary h4, summary h5, summary h6 {display: inline}
 
   ul, ol, dl, tbody, tfoot { break-before:avoid; }
 
