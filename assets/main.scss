@@ -80,6 +80,7 @@
     margin-bottom: 20pt;    
   }
 
-  li { line-height: 1.6em; }    
-    
+  li { line-height: 1.6em; }
+  
+  thead { display: table-row-group; }
 }
