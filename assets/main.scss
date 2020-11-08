@@ -4,11 +4,16 @@
 @import "minima";
 @media print {
 
-  a, blockquote, details, pre, table { break-inside:avoid; }
+  a, blockquote, details, pre { break-inside: avoid; }
+  
+   table {
+    break-before: avoid; 
+    break-inside: avoid;
+  }
 
-  h1, h2, h3, h4, h5, h6, img, thead {
-    break-after:avoid; 
-    break-inside:avoid;
+  h1, h2, h3, h4, h5, h6, img, summary, thead {
+    break-after: avoid; 
+    break-inside: avoid;
   }
   
   summary h1, summary h2, summary h3, summary h4, summary h5, summary h6 {display: inline}
