@@ -82,5 +82,8 @@
 
   li { line-height: 1.6em; }
   
-  thead { display: table-row-group; }
+  thead {
+    display:table-header-group;
+    break-inside: auto;
+  }
 }
