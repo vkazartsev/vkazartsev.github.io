@@ -86,4 +86,6 @@
     display:table-header-group;
     break-inside: auto;
   }
+  
+  details { page-break-inside:avoid; }
 }
