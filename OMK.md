@@ -5,7 +5,7 @@
 <details open>
 <summary>
 
-  ##  Образование {display: inline}
+  ##  Образование
 </summary>
 
 | **Ожидание**| **Факт**                                                                                                                                                  |
