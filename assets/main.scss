@@ -4,20 +4,18 @@
 @import "minima";
 @media print {
 
-  a, blockquote, details, pre { break-inside: avoid; }
+  a, blockquote, details, pre {break-inside: avoid !important}
   
-  table {
-    break-before: avoid !important;
-  }
+  table {break-before: avoid !important}
 
   h1, h2, h3, h4, h5, h6, img, summary, thead {
     break-after: avoid !important; 
-    break-inside: avoid !important;
+    break-inside: avoid !important
   }
   
-  summary h1, summary h2, summary h3, summary h4, summary h5, summary h6 {display: inline}
+  summary h1, summary h2, summary h3, summary h4, summary h5, summary h6 {display: inline ! important}
 
-  ul, ol, dl, tbody, tfoot { break-before:avoid !important; }
+  ul, ol, dl, tbody, tfoot {break-before:avoid !important}
 
   .entry iframe, ins {
     display: none;
@@ -25,13 +23,13 @@
     height: 0 !important;
     overflow: hidden !important;
     line-height: 0pt !important;
-    white-space: nowrap;
+    white-space: nowrap
   }
 
   .embed-youtube, .embed-responsive {
     position: absolute;
     height: 0;
-    overflow: hidden;
+    overflow: hidden
   }
 
   #header-widgets, nav, aside.mashsb-container, 
@@ -40,6 +38,6 @@
   .heading, .related-posts, #decomments-form-add-comment, 
   #breadcrumbs, #footer, .post-byline, .meta-single, 
   .site-title img, .post-tags, .readability 
-  { display: none; }
+  {display: none}
 
 }
